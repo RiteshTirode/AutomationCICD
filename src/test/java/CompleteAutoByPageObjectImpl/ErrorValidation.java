@@ -21,6 +21,7 @@ public class ErrorValidation extends BaseTest{
 
 		ProductCatalogue prodCat=landingPage.LoginApplication("ritesht@teleworm.u", "Ritesh@123");
     	AssertJUnit.assertEquals("Incorrec email or password.", landingPage.getErrorMessage());
+		//Syso
 
 	}
 
